@@ -19,7 +19,6 @@ a {
     top: 0; 
     left: 0; 
     width: 100%;
-    height: 0x; 
     text-align: center;
     list-style-type: none;
     transition: .3s ease all;
@@ -64,4 +63,40 @@ li a:hover {
     margin-right: 20px
 }
 
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    .navbar {
+        height: auto; /* Adjust the height for mobile */
+    }
+
+    .navbar li {
+        float: none; /* Remove float for list items */
+        display: block; /* Display list items as blocks */
+    }
+
+    .navbar a {
+        padding: 40px; /* Decrease padding for links */
+    }
+
+    .welcome {
+        text-align: center;
+        margin-top: 100px; /* Adjust margin for welcome section on mobile */
+        margin-bottom: 100px; /* Adjust margin for welcome section on mobile */
+    }
+
+    .startOfPage {
+        margin-top: 100px; /* Adjust margin for the startOfPage section on mobile */
+    }
+
+    .welcome ul {
+        display: block; /* Display list items as blocks */
+        text-align: center; /* Center-align the list items */
+    }
+
+    .welcome li {
+        display: block;
+        margin-right: 0; /* Remove right margin for list items */
+        margin-bottom: 10px; /* Add bottom margin for list items */
+    }
+}
 
