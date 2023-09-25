@@ -83,14 +83,10 @@ li a:hover {
     .navbar {
         height: auto; /* Adjust the height for mobile */
     }
-
-    .navbar li {
-        float: none; /* Remove float for list items */
-        display: block; /* Display list items as blocks */
-    }
-
+    
     .navbar a {
-        padding: 40px; /* Decrease padding for links */
+        padding: 30px; /* Decrease padding for links */
+        white-space: normal;
     }
 
     .welcome {
@@ -101,17 +97,6 @@ li a:hover {
 
     .startOfPage {
         margin-top: 100px; /* Adjust margin for the startOfPage section on mobile */
-    }
-
-    .welcome ul {
-        display: block; /* Display list items as blocks */
-        text-align: center; /* Center-align the list items */
-    }
-
-    .welcome li {
-        display: block;
-        margin-right: 0; /* Remove right margin for list items */
-        margin-bottom: 10px; /* Add bottom margin for list items */
     }
 }
 
