@@ -62,7 +62,9 @@ li a:hover {
     display: inline;
     margin-right: 20px
 }
-
+.gallery {
+    
+}
 /* Mobile-specific styles */
 @media (max-width: 768px) {
     .navbar {
