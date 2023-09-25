@@ -65,20 +65,4 @@ li a:hover {
 .gallery {
 
 }
-/* Mobile-specific styles */
-@media (max-width: 768px) {
-    .navbar {
-        height: auto; /* Adjust the height for mobile */
-    }
-
-    .welcome {
-        text-align: center;
-        margin-top: 100px; /* Adjust margin for welcome section on mobile */
-        margin-bottom: 100px; /* Adjust margin for welcome section on mobile */
-    }
-
-    .startOfPage {
-        margin-top: 100px; /* Adjust margin for the startOfPage section on mobile */
-    }
-}
 
