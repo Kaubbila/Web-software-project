@@ -1,5 +1,5 @@
 body {
-    background-color: #000000;
+    background-color: #111111;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23060605' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%230d0c0b' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23131110' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231a1716' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23201D1B' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     overflow-y: scroll;
     font-size: 18px;
+    width: 100%;
 }
 
 a { 
@@ -66,18 +67,20 @@ li a:hover {
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
     .navbar {
         position: fixed;
         transition: .3s ease all;
         background-color: #3a3636
-       
     }
+
     .navbar li {
+        width: 100;
         float: left;
     }
     
     .navbar a {
+        width: 100;
         display: block;
         color: white;
         text-align: left;
@@ -89,11 +92,13 @@ li a:hover {
     }
 
     .welcome {
+        width: 100;
         margin-top: 120px;
         margin-bottom: 70px;
         text-align: center;
     }
     .gallery img{
+        width: 100;
         display: block;
         margin-left: auto;
         margin-right: auto;
