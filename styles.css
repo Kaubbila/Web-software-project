@@ -75,7 +75,6 @@ li a:hover {
         background-color: #3a3636
        
     }
-
     .navbar li {
         float: left;
     }
@@ -84,15 +83,15 @@ li a:hover {
         display: block;
         color: white;
         text-align: left;
-        padding: 16px;
+        padding: 40px;
     }
 
     .formattingText {
-        padding: 0px 15px 20px;
+        padding: 0px 20px 20px;
     }
 
     .welcome {
-        margin-top: 70px;
+        margin-top: 120px;
         margin-bottom: 70px;
         text-align: center;
     }
