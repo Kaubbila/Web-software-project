@@ -68,7 +68,7 @@ li a:hover {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .navbar {
         position: fixed;
         transition: .3s ease all;
