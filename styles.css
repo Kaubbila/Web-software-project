@@ -14,29 +14,33 @@ a {
 }
 
 p {
-    width: 70%;
+    width: 60%;
 }
 
 .navbar {
     position: fixed;
     top: 0; 
-    left: 0; 
+    left: 0;
     width:100%;
-    max-width: 100%;
     list-style-type: none;
     transition: .3s ease all;
+    overflow: hidden;
     background-color: #3a3636;
+    
 }
 
 .navbar li {
-    float: left;
+    float:left;
+    padding: 0px 16px;
 }
 
 .navbar a {
+    margin: 0 auto;
     display: block;
+    float: left;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 14px 16px;
     text-decoration: none;
     width: 100%;
 }
@@ -44,6 +48,14 @@ p {
 li a:hover {
     background-color: #c59b4e;
     transition: 0.7s ease all;
+}
+
+li a:hover:not(.active) {
+    background-color: #c59b4e;
+  }
+
+.active {
+    background-color: #c59b4e;
 }
 
 .welcome {
