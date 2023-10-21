@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Sovellusten Perusteet</title>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="assets/scripts/theme.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-centered">
+                    <a href="./index.html">Home</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a class="active" href="./survey.html">Survey</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                <div class="navbar-right">
+                    <a class="theme" href="#theme" onclick="theme()">Theme</a>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <h1>Answer our survey or square up</h1>
+            <div class="names">
+                <label id="firstname">First name:</label><br>
+                <input type="text" name="usersFirstname" value=""> <br>
+                <label id="lastname">Last name:</label> <br>
+                <input type="text" name="usersLastname" value=""><br><br>
+            </div>
+            <label class="padding">Which do you identify as?</label>
+            <div class="identify">
+                <input type="radio" id="human" name="identity" value="human">
+                <label for="human">Human</label>
+
+                <input type="radio" id="capybara" name="identity" value="capybara" >
+                <label for="capybara">Capybara</label>
+
+                <input type="radio" id="nonhuman" name="identity" value="nonhuman">
+                <label for="nonhuman">Non-human</label><br><br>
+            </div>
+            <div class="travel">
+                <label for="travel">How do you go to school</label><br>
+                <input type="checkbox" id="vehicle1" name="answer1" value="car">
+                <label for="vehicle1">By car</label><br>
+                <input type="checkbox" id="vehicle2" name="answer2" value="bike">
+                <label for="vehicle2"> By bike</label><br>
+                <input type="checkbox" id="vehicle3" name="answer3" value="buss">
+                <label for="vehicle3"> By bus</label><br>
+                <input type="checkbox" id="vehicle4" name="answer4" value="walking">
+                <label for="vehicle4"> By walking</label><br>
+                <input type="checkbox" id="vehicle5" name="answer5" value="jobless">
+                <label for="vehicle5"> I don't go to school, it's for averages</label><br><br>
+            </div>
+            <div class="candy">
+                <label for="candy">Pick one type of candy</label><br>
+                <select name="candy" id="candy">
+                    <option value="colourful ones">Colourful</option>
+                    <option value="salmiakki">Salmiakki(straitjacket t.google kääntäjä)</option>
+                    <option value="nothing">Sugar is for kids</option>
+                    <option value="all">I WANT ALL KINDS OF CANDIES</option>
+                </select>
+            </div><br>
+            <div class="feedback">
+                <label for="feedback">Free feedback about the pictures of capybaras</label><br>
+                <textarea id="feedback" name="w3review" rows="4" cols="50"></textarea><br><br>
+                <input type="Submit" value="Submit">
+            </div>
+        </main>
+    </body>
+</html>

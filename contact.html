@@ -5,33 +5,38 @@
         <link href="styles.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="assets/scripts/theme.js"></script>
+    </head>
     <body>
-        <div class="navbar">
-            <div class="navbar-centered">
-                <a href="./index.html">Home</a>
-                <a href="./gallery.html">Gallery</a>
-                <a href="./news.html">News</a>
-                <a class ="active" href="./contact.html">Contact</a>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-centered">
+                    <a href="./index.html">Home</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a href="./survey.html">Survey</a>
+                    <a class ="active" href="./contact.html">Contact</a>
+                </div>
+                <div class="navbar-right">
+                    <a class="theme" href="#theme" onclick="theme()">Theme</a>
+                </div>
             </div>
-            <div class="navbar-right">
-                <a class="theme" href="#theme" onclick="theme()">Theme</a>
+        </nav>
+        <main>
+            <div class="startOfPage">
+                <h3> We value your feedback!<br> Please share your thoughts, suggestions, or comments with us.<br>Your input helps us improve our services.</h3>
+                <div id="feedback">
+                    <form action="To_action_page">
+                        <label id="firstname">First name:</label><br>
+                        <input type="firstname" name="" value=""> <br>
+                        <label id="lastname">Last name:</label> <br>
+                        <input type="lastname" name="" value=""><br><br>
+                    </form>
+                </div>
+                <div id="feedback">
+                    <label for="feedback">Write here:</label><br>
+                    <textarea id="feedback" name="w3review" rows="4" cols="50"></textarea><br><br>
+                    <input type="button" value="Submit">
+                </div>
             </div>
-        </div>
-        <div class="startOfPage">
-            <h3> We value your feedback!<br> Please share your thoughts, suggestions, or comments with us.<br>Your input helps us improve our services.</h3>
-            <div id="feedback">
-                <form action="To_action_page">
-                    <label id="firstname">First name:</label><br>
-                    <input type="firstname" name="" value=""> <br>
-                    <label id="lastname">Last name:</label> <br>
-                    <input type="lastname" name="" value=""><br><br>
-                </form>
-            </div>
-            <div id="feedback">
-                <label for="feedback">Write here:</label><br>
-                <textarea id="feedback" name="w3review" rows="4" cols="50"></textarea><br><br>
-                <input type="button" value="Submit">
-            </div>
-        </div>
+        </main>
     </body>
 </html>
