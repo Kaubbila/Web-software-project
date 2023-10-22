@@ -8,6 +8,9 @@ body {
     overflow-y: scroll;
     font-size: 16px;
 }
+#timer {
+    color: orange;
+}
 table,td,th{
     border-collapse: collapse;
     border: 1px solid #dddddd;

@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="assets/scripts/theme.js"></script>
     </head>
-    <body>
+    <body onload="startTime()">
         <nav>
             <div class="navbar">
                 <div class="navbar-centered">
@@ -19,6 +19,7 @@
                 <div class="navbar-right">
                     <a class="theme" href="#theme" onclick="theme()">Theme</a>
                 </div>
+                <p id="timer"></p>
             </div>
         </nav>
         <main>
