@@ -1,0 +1,156 @@
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23060605' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%230d0c0b' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23131110' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%231a1716' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23201D1B' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-y: scroll;
+    font-size: 16px;
+}
+.dark-mode {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg");
+    color: black;
+}
+.navbar {
+    position: flex;
+    overflow: hidden;
+    background-color: #2b2929;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover {
+    background-color: #cc8f1e;
+    color: black;
+}
+.navbar a.active {
+    background-color: #cc8f1e;
+    color: white;
+}
+
+.navbar-right a {
+    float: right;
+}
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+ul li.checked {
+  background: #cc8f1e;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: #be36f4;
+  color: white;
+}
+
+.header {
+  padding: 30px 40px;
+  color: #C59B4E;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar a, .navbar-right {
+        float: left;
+    }
+    .welcome {
+        margin-top: 120px;
+        margin-bottom: 70px;
+    }
+    .gallery img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery a, .gallery h1, .gallery p{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .formattingText {
+        padding: 0px 20px 20px;
+    }
+}

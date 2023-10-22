@@ -4,7 +4,7 @@
         <title>Web Sovellusten Perusteet</title>
         <link href="styles.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="assets/scripts/theme.js"></script>
+        <script src="assets/scripts/theme.js" defer></script>
     </head>
     <body>
         <nav>
@@ -13,6 +13,7 @@
                     <a href="./index.html">Home</a>
                     <a href="./gallery.html">Gallery</a>
                     <a class="active" href="./survey.html">Survey</a>
+                    <a href ="./bucketlist.html">Bucketlist</a>
                     <a href="./contact.html">Contact</a>
                 </div>
                 <div class="navbar-right">
@@ -21,7 +22,11 @@
             </div>
         </nav>
         <main>
-            <h1>Answer our survey or square up</h1>
+            <h1>Answer our survey and you can win:</h1>
+            <p>With array:</p>
+            <h2 id="array"></h2>
+            <p>with loop:</p>
+            <h2 id="loop"></h2>
             <div class="names">
                 <label id="firstname">First name:</label><br>
                 <input type="text" name="usersFirstname" value=""> <br>
@@ -64,7 +69,7 @@
             <div class="feedback">
                 <label for="feedback">Free feedback about the pictures of capybaras</label><br>
                 <textarea id="feedback" name="w3review" rows="4" cols="50"></textarea><br><br>
-                <input type="Submit" value="Submit">
+                <input type="Submit" value="Submit" onclick="submit()">
             </div>
         </main>
     </body>
