@@ -49,4 +49,4 @@
 * The NASA API fetches values from the API and the values are filtered. I chose to filter in the asteroids Id, Name, diameter(max), Diameter(min) and is it hazardous. For the code itself it can be seen on theme.js on asteroid function. 
 
 The raw json before filtering: 
-!(Json)[assets/pictures/asteroid.png]
+![Json](assets/pictures/asteroid.png)
