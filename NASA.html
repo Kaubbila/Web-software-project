@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Sovellusten Perusteet</title>
+        <link href="styles.css" rel="stylesheet">
+        <script src="assets/scripts/asteroids.js"></script>
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+                <div class="navbar-centered">
+                    <a href="./index.html">Home</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a href="./survey.html">Survey</a>
+                    <a href ="./bucketlist.html">Bucketlist</a>
+                    <a class ="active" href="./NASA.html">Asteroids</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                <div class="navbar-right">
+                    <a class="theme" href="#theme" onclick="theme()">Theme</a>
+                </div>
+                <p id="timer"></p>
+            </div>
+        </nav>
+        <header>
+            <h1>Asynchronous operations</h1>
+            <h2>Lets fetch information from the NASA API that tells us about asteroids that have been near earth somewhere in september 2023. </h2>
+            <p>Fetching takes about 20-30 seconds please be patient.</p>
+        </header>
+        <main>
+            <input type="button" value="Submit" onclick="asteroids()"><br><br>
+            <table class="asteroidTable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Diameter, Meter (Max)</th>
+                        <th>Diameter, Meter (Min)</th>
+                        <th>Hazardous(Will potentially destroy the world)</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

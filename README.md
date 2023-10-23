@@ -41,3 +41,4 @@
 * I used timer as a clock on the navigation bar. Can be seen when accessing pages. 
 
 ## 2/5 Successful implementation of an AJAX call or Fetch.
+* Successful implementation of an AJAX call or Fetch.
