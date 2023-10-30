@@ -40,7 +40,7 @@
 ## 1/5 Use of timers.
 * I used timer as a clock on the navigation bar. Can be seen when accessing pages. 
 ## 2/5 Successful implementation of an AJAX call or Fetch.
-* Can be found on NASA.index. I Implemented NASA API that fetches the asteroids sighted close by in a specific time. 
+* Can be found on NASA.index. I Implemented NASA API that fetches the asteroids sighted close by in a specific time. The fetching takes time, I suspect its because of the API itself. 
 ## 3/5 Data from the asynchronous call is displayed on the webpage.
 * Clicking submit from the NASA.html, (From Asteroids page) launches a function called asteroid from theme.js which fetches value from the API and can be seen on the Asteroids page (After waiting a while).
 ## 4/5 Error handling is implemented (for failed API calls, etc.).
